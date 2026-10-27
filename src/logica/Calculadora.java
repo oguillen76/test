@@ -39,6 +39,7 @@ public class Calculadora extends JFrame {
 					Calculadora frame = new Calculadora();
 					frame.setVisible(true);
 				} catch (Exception e) {
+					System.out.println(e.getLocalizedMessage());
 					e.printStackTrace();
 				}
 			}
