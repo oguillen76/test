@@ -27,7 +27,8 @@ public class Calculadora extends JFrame {
 	String operations;
 	String answer;
 	
-	/* SE REFIERE A LOS NÚMEROS Y OPERACIONES DE LA CALCULADORA */
+	/* SE REFIERE A LOS NÚMEROS Y OPERACIONES DE LA CALCULADORA
+	 * CAMBIO GESTIÓN DE EXCEPCIONES */
 
 	/**
 	 * Launch the application.
@@ -39,8 +40,8 @@ public class Calculadora extends JFrame {
 					Calculadora frame = new Calculadora();
 					frame.setVisible(true);
 				} catch (Exception e) {
-					System.out.println(e.getLocalizedMessage());
 					e.printStackTrace();
+					//TODO: GESTION DE EXCEPCIONES
 				}
 			}
 		});
