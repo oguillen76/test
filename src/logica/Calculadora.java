@@ -27,6 +27,7 @@ public class Calculadora extends JFrame {
 	String operations;
 	String answer;
 	
+	/* SE REFIERE A LOS NÚMEROS Y OPERACIONES DE LA CALCULADORA */
 
 	/**
 	 * Launch the application.
